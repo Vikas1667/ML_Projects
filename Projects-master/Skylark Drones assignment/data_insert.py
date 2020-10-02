@@ -4,6 +4,7 @@ from gps_data import get_gps_data_from_images
 from gps_data import srt
 import csv
 
+
 def csv_file(frame_no, image_list):
     
     with open('/home/vicky/Desktop/Skylark_Drones/video.csv', 'a') as outfile:
