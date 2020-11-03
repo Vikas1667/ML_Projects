@@ -18,6 +18,6 @@ def calculate_distance_on_earth(strt_lat_dec_deg,strt_long_dec_deg,stp_lat_dec_d
     start=(strt_lat_dec_deg,strt_long_dec_deg)
     stop=(stp_lat_dec_deg,stp_long_dec_deg)
     dist_in_meters=vincenty(start,stop).meters
-    return dist_in_meters 
+    return dist_in_meters
 
 
