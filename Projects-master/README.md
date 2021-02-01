@@ -23,9 +23,6 @@ Bacterial strips often required to segment before feeding deep learning models f
 selfie image is been required to identify from various sources and its trained using CNN.
 
 #### Description 
-
-
-
 How to Take a Good Selfie?
 Mahdi M. Kalayeh, Misrak Seifu, Wesna LaLanne, Mubarak Shah
 mahdi@eecs.ucf.edu, misrak.seifu@gmail.com, wlalanne@knights.ucf.edu, shah@crcv.ucf.edu
@@ -45,4 +42,14 @@ selfie and its popularity?
 4. How does post-processing, such as applying different Instagram
 filters, influence the popularity of selfies?
 
+
+## Drone Path for Getting aerial images for Survelience
+
+Drone for Aerial Intelligence is widely used recently for various applications
+
+#### Description
+We have a video that we've shot over their site, as well as a set of aerial images. We would like to show them a POC level
+app where they can watch the video, and whenever they pause the video to inspect
+anything, we will be able to show them the images taken at that point. It will 
+add great value to our entire offering.
 
