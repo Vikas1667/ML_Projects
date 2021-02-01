@@ -18,13 +18,31 @@ The AG's news topic classification dataset is constructed by choosing 4 largest 
 
 The file classes.txt contains a list of classes corresponding to each label. The files train.csv and test.csv contain all the training samples as comma-sparated values. There are 3 columns in them, corresponding to class index (1 to 4), title and description. The title and description are escaped using double quotes ("), and any internal double quote is escaped by 2 double quotes (""). New lines are escaped by a backslash followed with an "n" character, that is "\n".
 
-## Twitter API 
-All the large, well-known social networks and hundreds of international companies generate business thanks to the REST system (Representational State System), and Twitter, Instagram, YouTube and Facebook, were not going to be left behind.
+## Image classification and Segmentation
+Bacterial strips often required to segment before feeding deep learning models for computation, so accurate segmentation is vital part is evaluated 
+selfie image is been required to identify from various sources and its trained using CNN.
 
-As mentioned at the beginning, the Twitter API, like those of other social networks, allows reading user profiles and publications in the social network, as well as generating tweets.
+#### Description 
 
-Starting with this last option, which may be easier to understand, a basic use of the Twitter API in your company could be creating and publishing tweets after the occurrence of X requirements, so that whenever a series of circumstances took place, your company's profile would send out a corresponding tweet. For example, each time someone names your company in Twitter and includes the words "query", "question", please" or "thank you", you can create a default thank you tweet with your company's maximum response time. Any bot in Twitter or profiles that publish automatic tweets normally uses the streaming Twitter API, based on an app created in this social network. There are thousands of entertaining cases of bots in Twitter, in fact, according to a recent study, 15% of Twitter users are bots.
 
-The use of Twitter is based on accessing user profiles and publications in this social network, so we can create user patterns for our business or find out their degree of experience satisfaction.
+
+How to Take a Good Selfie?
+Mahdi M. Kalayeh, Misrak Seifu, Wesna LaLanne, Mubarak Shah
+mahdi@eecs.ucf.edu, misrak.seifu@gmail.com, wlalanne@knights.ucf.edu, shah@crcv.ucf.edu
+Oxford Dictionary: Selfie is a photograph that one has taken of
+oneself, typically one taken with a smartphone or webcam and shared
+via social media.
+How Big is the Selfie Phenomenon? Google recently reported
+that there are about 93 millions of selfies taken every day only on
+Android devices!
+Research Questions:
+1. How do different attributes, such as gender, race or hair color,
+influence the popularity of selfies?
+2. How does the appearance of certain objects or particular
+concepts affect the popularity of selfies?
+3. Is there a relationship between the sentiment inferred from a
+selfie and its popularity?
+4. How does post-processing, such as applying different Instagram
+filters, influence the popularity of selfies?
 
 
