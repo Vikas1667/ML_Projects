@@ -4,22 +4,20 @@
 
 ## Two Phases
 ### 1)	Pretraining – learns language and Context:
+#### Language learning by BERT by training two unsupervised tasks simultaneously 
 
-Language learning by BERT by training two unsupervised tasks simultaneously 
-
-o	Masked language model (MLM) 
-o	Next sentence prediction
-
+o	Masked language model (MLM) <br>
+o	Next sentence prediction (NSP)
 #### •	Masked language model (MLM)
-
+<p>
 MLM: Takes input Sentence with random words as filled masks goal is to output masked tokens
 Goal: to output masked token
 Eg: The [MASK1] brown fox [MASK2] over lazy dog
 MASK1=quick
 MASK2=jumped
 Achieves: Learns bidirectional context
-
-#### •	 Next Sentence Prediction (NSP)
+</p>
+####  Next Sentence Prediction (NSP)
  NSP: Takes two sentence and determines whether second follows first, similar to binary classification
  Eg: Sentence1sentence2 Yes, 1, True
      Sentence1Sentence3 No, 0, False
@@ -46,7 +44,7 @@ Output
 Binary C(NSP) and word vectors
 Note: Word vectors same size and all generated simultaneously
 Word vectorfully connected layer Softmax activation [0-1] where neurons equal to total no of words in vocab Comparing with actual labels i.e. one hot encoded using Cross Entropy loss  
-
+'''
 Summary: 
 1)	We pretrained BERT language model using mask language modelling and Next sentence prediction
 2)	Every word token embedding using word piece, Segment Embedding, position embedding 
@@ -54,7 +52,7 @@ Summary:
 4)	Word vectors converted into distribution to train using Cross Entropy Loss.
 5)	We performed supervised training depending task we want to perform
 Note: Squad large Note: BERT large 340M Parameters, BERT Base 110 M Parameters 
-
+'''
 
 
 ### BERT: Stack of transformer Encoder 
