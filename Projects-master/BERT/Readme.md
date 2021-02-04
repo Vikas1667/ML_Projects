@@ -5,10 +5,9 @@
 ## Two Phases
 ### 1)	Pretraining – learns language and Context:
 #### Language learning by BERT by training two unsupervised tasks simultaneously 
-'''
+
 o	Masked language model (MLM) <br>
 o	Next sentence prediction
-'''
 #### •	Masked language model (MLM)
 '''
 MLM: Takes input Sentence with random words as filled masks goal is to output masked tokens
