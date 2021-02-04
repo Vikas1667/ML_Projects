@@ -9,14 +9,14 @@
 o	Masked language model (MLM) <br>
 o	Next sentence prediction
 #### •	Masked language model (MLM)
-'''
+<p>
 MLM: Takes input Sentence with random words as filled masks goal is to output masked tokens
 Goal: to output masked token
 Eg: The [MASK1] brown fox [MASK2] over lazy dog
 MASK1=quick
 MASK2=jumped
 Achieves: Learns bidirectional context
-''''
+</p>
 #### •	 Next Sentence Prediction (NSP)
  NSP: Takes two sentence and determines whether second follows first, similar to binary classification
  Eg: Sentence1sentence2 Yes, 1, True
