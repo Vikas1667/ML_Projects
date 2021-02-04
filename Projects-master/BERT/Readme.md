@@ -17,7 +17,7 @@ MASK1=quick
 MASK2=jumped
 Achieves: Learns bidirectional context
 </p>
-#### •	 Next Sentence Prediction (NSP)
+####  Next Sentence Prediction (NSP)
  NSP: Takes two sentence and determines whether second follows first, similar to binary classification
  Eg: Sentence1sentence2 Yes, 1, True
      Sentence1Sentence3 No, 0, False
