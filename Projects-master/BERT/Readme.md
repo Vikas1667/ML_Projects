@@ -6,7 +6,7 @@
 ### 1)	Pretraining – learns language and Context:
 #### Language learning by BERT by training two unsupervised tasks simultaneously 
 '''
-o	Masked language model (MLM) <\br>
+o	Masked language model (MLM) <br>
 o	Next sentence prediction
 '''
 #### •	Masked language model (MLM)
