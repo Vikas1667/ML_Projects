@@ -7,7 +7,7 @@
 #### Language learning by BERT by training two unsupervised tasks simultaneously 
 
 o	Masked language model (MLM) <br>
-o	Next sentence prediction
+o	Next sentence prediction (NSP)
 #### •	Masked language model (MLM)
 <p>
 MLM: Takes input Sentence with random words as filled masks goal is to output masked tokens
