@@ -1,5 +1,6 @@
 # Projects
-### Here some small assignments and small Projects 
+### Here some small usecases and small skeleton of ML Projects 
+
 ## Lung Cancer Detection Using Fuzzy logic and CNN 
 Lung cancer (both small cell and non-small cell) is the second most common cancer in both men and women (not counting skin cancer). In men, prostate cancer is more common, while in women breast cancer is more common. About 14% of all new cancers are lung cancers.
 The American Cancer Society’s estimates for lung cancer in the United States for 2018 are:
