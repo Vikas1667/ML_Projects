@@ -77,23 +77,23 @@ Following are the implementation details:
 
 **2.Semantic Similarity**
 
-![](Images/GPT_1_semantic_sim)
+![](Images/GPT_1_semantic_sim.jpg)
 
 **3. Natural Language Inference**
 
-![](Images/GPT_1_NLI)
+![](Images/GPT_1_NLI.jpg)
 
 **4. Text Classification**
 
-![](RackMultipart20210216-4-12pv8vg_html_2957d2b06cabc7e.jpg)
+![](Images/GPT_1_text_class.jpg)
 
 **Model Performance:**
 
-![](RackMultipart20210216-4-12pv8vg_html_ea13fc9ffbd71402.jpg)
+![](Images/GPT_1_model_performance)
 
 **Ablations:**
 
-![](RackMultipart20210216-4-12pv8vg_html_6ad38405152f88ef.jpg)
+![](Images/GPT_1_ablations.jpg)
 
 #
 **# Language Models are unsupervised multitask learners (**
@@ -114,7 +114,7 @@ Its Stack of Decoder block of transformers with larger Dataset and more learning
 
 Dataset name: &quot;Webtext&quot;
 
-![](RackMultipart20210216-4-12pv8vg_html_12022504ea2519d5.jpg)
+![](Images/GPT_2_dataset_collection.JPG)
 
 There are three released sizes of GPT-2:
 
@@ -123,23 +123,23 @@ There are three released sizes of GPT-2:
 - 774M: the &quot;large&quot; model, cannot currently be finetuned with Colaboratory but can be used to generate text from the pretrained model (see later in Notebook)
 - 1558M: the &quot;extra large&quot;, true model. Will not work if a K80 GPU is attached to the notebook. (like 774M, it cannot be finetuned).
 
-![](RackMultipart20210216-4-12pv8vg_html_6bf5d777f7597672.jpg)
+![](Images/GPT_Data_set.JPG)
 
-![](RackMultipart20210216-4-12pv8vg_html_d80ab4e84de8c5b0.png)
+![](Iamges/GPT_2_model_variants.JPG)
 
 **GPT2 Tasks**
 
 **1.Question Answering**
 
-![](RackMultipart20210216-4-12pv8vg_html_d18999fdffd93d71.jpg)
+![](Images/GPT_2_Question_answering_task.JPG)
 
 **2.Translation:**
 
-![](RackMultipart20210216-4-12pv8vg_html_1551dfca3a967e0f.jpg)
+![](Images/GPT_2_language_translation.JPG)
 
 **3.Zero Shot NLP Task:** Question answering, meaning answering without a context passage.
 
-![](RackMultipart20210216-4-12pv8vg_html_f0a0f39f04004bc0.jpg)
+![](Images/Zero_shot_NLP_tasks.JPG)
 
 #
 
@@ -156,7 +156,7 @@ There are three released sizes of GPT-2:
 
 **Model Performance:**
 
-![](RackMultipart20210216-4-12pv8vg_html_ce6f052190c509f4.jpg)
+![](Images/GPT_2_model_performance.JPG)
 
 **Papers** :
 
