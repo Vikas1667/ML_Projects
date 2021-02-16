@@ -15,7 +15,7 @@ Unsupervised learning served as pre-training objective for supervised fine-tuned
 
 **GPT Architecture** :
 
-![GPT](../Images/GPT_1_architecture.jpeg)
+![GPT](Images/GPT_1_architecture.jpeg)
 
 **Data Corpus**
 
