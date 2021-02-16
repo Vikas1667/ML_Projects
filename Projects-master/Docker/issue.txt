@@ -1,6 +1,0 @@
-failed to solve with frontend dockerfile.v0: failed to read dockerfile: 
-open /var/lib/docker/tmp/buildkit-mount369490684/Dockerfile: no such file or directory
-
-solutions
-its because file name should be simple file 
-us notepad++ save it as alltype(.)
