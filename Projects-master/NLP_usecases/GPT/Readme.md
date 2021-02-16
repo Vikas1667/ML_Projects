@@ -85,11 +85,11 @@ Following are the implementation details:
 
 **4. Text Classification**
 
-![](Images/GPT_1_text_class.jpg)
+![](Images/GPT_1_text_class.JPG)
 
 **Model Performance:**
 
-![](Images/GPT_1_model_performance)
+![](Images/GPT_1_model_performance.JPG)
 
 **Ablations:**
 
