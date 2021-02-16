@@ -19,25 +19,25 @@ Unsupervised learning served as pre-training objective for supervised fine-tuned
 
 **Data Corpus**
 
-![Corpus](Images/Corpus.jpg) 
+![Corpus](Images/Corpus.JPG) 
 
 **Concepts:**
 
 1. **Unsupervised Language Modelling**  (Pre-training): For unsupervised learning, standard language model objective was used.
 
-![](RackMultipart20210216-4-12pv8vg_html_671cbd6105c2eb3b.png)
+![](unsupervised_language_model_f1.jpg)
 
 where T was the set of tokens in unsupervised data {t\_1,…,t\_n}, k was size of context window, θ were the parameters of neural network trained using stochastic gradient descent.
 
 1. **Supervised Fine-Tuning** : This part aimed at maximising the likelihood of observing label y, given features or tokens x\_1,…,x\_n.
 
-![](RackMultipart20210216-4-12pv8vg_html_9b0e690719f6f9da.png)
+![](unsupervised_language_model_f2.jpg)
 
 **where C was the labeled dataset made up of training examples.**
 
 Instead of simply maximizing the objective mentioned in equation (ii), the authors added an  **auxiliary learning objective**  for supervised fine-tuning to get better generalization and faster convergence. The modified training objective was stated as:
 
-![](RackMultipart20210216-4-12pv8vg_html_95557b9f65923353.png)
+![](unsupervised_language_model_f3.jpg)
 
 where L₁(C) was the auxiliary objective of learning language model and λ was the weight given to this secondary learning objective. λ was set to 0.5.
 
