@@ -25,19 +25,19 @@ Unsupervised learning served as pre-training objective for supervised fine-tuned
 
 1. **Unsupervised Language Modelling**  (Pre-training): For unsupervised learning, standard language model objective was used.
 
-![](unsupervised_language_model_f1.jpg)
+![](Images/unsupervised_language_model_f1.jpg)
 
 where T was the set of tokens in unsupervised data {t\_1,…,t\_n}, k was size of context window, θ were the parameters of neural network trained using stochastic gradient descent.
 
 1. **Supervised Fine-Tuning** : This part aimed at maximising the likelihood of observing label y, given features or tokens x\_1,…,x\_n.
 
-![](unsupervised_language_model_f2.jpg)
+![](Images/unsupervised_language_model_f2.jpg)
 
 **where C was the labeled dataset made up of training examples.**
 
 Instead of simply maximizing the objective mentioned in equation (ii), the authors added an  **auxiliary learning objective**  for supervised fine-tuning to get better generalization and faster convergence. The modified training objective was stated as:
 
-![](unsupervised_language_model_f3.jpg)
+![](Images/unsupervised_language_model_f3.jpg)
 
 where L₁(C) was the auxiliary objective of learning language model and λ was the weight given to this secondary learning objective. λ was set to 0.5.
 
@@ -73,15 +73,15 @@ Following are the implementation details:
 
 **1.Question Answering**
 
-![](RackMultipart20210216-4-12pv8vg_html_e1b69d0153c3bb94.jpg)
+![](Images/GPT_1_ques_ans.jpg)
 
 **2.Semantic Similarity**
 
-![](RackMultipart20210216-4-12pv8vg_html_575c2d50ccddf931.jpg)
+![](Images/GPT_1_semantic_sim)
 
 **3. Natural Language Inference**
 
-![](RackMultipart20210216-4-12pv8vg_html_d6639e735ffa37ad.jpg)
+![](Images/GPT_1_NLI)
 
 **4. Text Classification**
 
