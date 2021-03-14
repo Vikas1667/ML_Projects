@@ -8,6 +8,15 @@ About 234,030 new cases of lung cancer (121,680 in men and 112,350 in women)
 About 154,050 deaths from lung cancer (83,550 in men and 70,500 in women)
 CT scan images is been used for processing.In preprocessing, segementation is important step to reduce computational time as well as space.In segmentation, lungs to be extracted from alonside parts like ribs,air,etc which can be precisely because if it is not done there is chances of loosing important data.   
 
+## Consumer Narratives classification
+The dataset comprises of Consumer Complaints on Financial products and we'll see how to classify consumer complaints text into these categories: Debt collection, Consumer Loan, Mortgage, Credit card, Credit reporting, Student loan, Bank account or service, Payday loan, Money transfers, Other financial service, Prepaid card.
+
+The classification task would help banking/financial institution to quickly identify and provide customized solutions to each customer based on complaints received departmentwise. 
+The dataset is available in link:- https://www.kaggle.com/cfpb/us-consumer-finance-complaints
+
+## Insurance claim Prediction
+## Loan Prediction
+
 ## Text Classification 
 AG's News Topic Classification Dataset
 Version 3, Updated 09/09/2015
