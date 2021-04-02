@@ -9,6 +9,8 @@
 ![image1](images/different_python_fe_lib.jpg)
 ### Table 1: Feature engineering methods supported by the different Python libraries
 
+
+
 ### Table 2 below summarizes these key differences between the three packages.
 ![image2](images/pckg_diff_fe.jpg)
 
@@ -17,10 +19,13 @@
 Imputation is the process of replacing missing data in a column, or variable, with a probable value estimated by other available information in the data set, typically within the same variable
 <ul>
   <li>Mean/Median Imputation:Mean imputation can be implemented similarly by simply replacing “median” with “mean”</li>
-  <li>Frequent Category Imputation:This method applies to categorical variables and replaces missing data with the most frequent category (i.e., the mode), identified in the             variables in the training set</li>
+  <li>Frequent Category Imputation:This method applies to categorical variables and replaces missing data with the most frequent category (i.e., the mode), identified in          the</br>variables in the training set</li>
 </ul>
+
 ### Table 3 below summarizes the techniques supported by each package and the main takeaways of their advantages and shortcomings.
+
 ![image3](images/imputation_tech.jpg)
+
 ### Table 3: Comparison of Imputation techniques supported by each Python library
 
 ### Categorical Variable Encoding
