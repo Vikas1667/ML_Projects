@@ -1,0 +1,49 @@
+
+
+Attrition in an Organization
+
+I. General Information
+a) Summary of our Data:
+b) Distribution of our Labels
+
+II. Gender Analysis:
+a) Age Distribution by Gender
+b) Job Satisfaction Distribution by Gender
+c) Monthly Income by Gender
+d) Presence by Department
+
+
+III.Analysis by Genderation and Education:
+a) Generational Behavior
+b) Understanding Attrition by Generation
+
+
+IV. The Impact of Income towards Attrition:
+a) Average income by Department
+b) Determining Satisfaction by Income
+c) Income and the Levels of Attrition
+d) Average Daily Rates and Percent Difference
+e) Level of Attrition by Overtime
+
+
+V. Working Environment:
+a) Number of Employees in each Job Role
+b) Median Salary by Job Role
+c) Attrition by Job Role
+d) Current Managers and Average Satisfaction Score
+e) Average Environment Satisfaction
+
+
+VI. An In-depth Look into Attrition:
+a) Digging into Attrition
+b) Other Factors that could Influence Attrition
+
+
+VII. Analysis and Models
+a) Correlation Matrix
+b) Starting with Decision Trees
+c) Using Automated Machine Learning with H2o
+
+
+VIII. Conclusion
+a) Top Reasons why Employees Leave the Organization
