@@ -116,7 +116,8 @@ def word_doc_embedding(text, candidate_keys):
 
 
 def keyword_extract(text_doc):
-    nlp = spacy.load("en_core_sci_sm")
+    # nlp = spacy.load("en_core_sci_sm")
+    nlp = spacy.load("en_core_web_trf", disable=["tagger", "parser", "attribute_ruler", "lemmatizer"])
     doc = nlp(str(text_doc))
     visualize_ner(doc, labels=nlp.get_pipe("ner").labels)
 
