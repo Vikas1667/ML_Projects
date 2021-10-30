@@ -37,7 +37,7 @@ def sentence_transformers():
 def normalize_text(text):
     # remove special characters\whitespaces
     text = re.sub(r'[^a-zA-Z\s]', ' ', str(text), re.I | re.A)
-
+    text = re.sub('<[^<]+>', '', str(text))
     # lower case & tokenize text
     tokens = word_tokenize(text)
 
@@ -116,8 +116,7 @@ def word_doc_embedding(text, candidate_keys):
 
 
 def keyword_extract(text_doc):
-    # nlp = spacy.load("en_core_sci_sm")
-    nlp = spacy.load("en_core_web_trf", disable=["tagger", "parser", "attribute_ruler", "lemmatizer"])
+    nlp = spacy.load("en_core_sci_sm")
     doc = nlp(str(text_doc))
     visualize_ner(doc, labels=nlp.get_pipe("ner").labels)
 

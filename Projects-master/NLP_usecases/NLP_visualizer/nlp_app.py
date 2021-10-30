@@ -3,10 +3,10 @@ import streamlit as st
 from spacy_streamlit import visualize_ner
 from text_normalizer import normalize_text, extract_text_from_rss,keyword_extract
 from torch import nn
+from transformers import pipeline
 
 import en_core_web_sm
 nlp = en_core_web_sm.load()
-
 
 def data_loader():
     uploaded_file = st.file_uploader("Choose a csv file", type=['.csv', '.xlsx', '.txt'])
@@ -70,6 +70,16 @@ def entRecognizer(entDict, typeEnt):
     entList = [ent for ent in entDict if entDict[ent] == typeEnt]
     return entList
 
+def summarize():
+    text_to_summarize = st.text_input("Add your RSS link here!", "https://www.moneycontrol.com/rss/buzzingstocks.xml")
+    fin_headings = extract_text_from_rss(text_to_summarize)
+    summarizer = pipeline("summarization")
+    fin_headings=normalize_text(fin_headings)
+    fin_headings=fin_headings.strip('title')
+    summarized = summarizer(fin_headings, min_length=75, max_length=200)
+    st.write(summarized)
+    st.write(fin_headings)
+
 
 if __name__ == '__main__':
     st.title("Text Visualizer")
@@ -79,6 +89,10 @@ if __name__ == '__main__':
     # data_loader()
     if choice == 'Data Loader':
         data_loader()
+    if choice == 'Summarize':
+        summarize()
+
+
     if choice == 'Text Preprocessing':
         raw_text = st.text_area("Enter Text Here", "Type Here")
         text_preprocessing()
