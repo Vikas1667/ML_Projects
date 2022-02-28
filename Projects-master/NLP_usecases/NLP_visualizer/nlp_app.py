@@ -4,7 +4,7 @@ from spacy_streamlit import visualize_ner
 from text_normalizer import normalize_text, extract_text_from_rss,keyword_extract
 from torch import nn
 from transformers import pipeline
-
+import string
 import en_core_web_sm
 nlp = en_core_web_sm.load()
 
@@ -41,7 +41,10 @@ def text_preprocessing():
     st.write(out)
 
     if "Remove Punctuation" in choiceOperations:
-        punctuations = '''!()-[]{};:'"\,>./?@#$%^&*_~'''
+        punctuations = '''!()-[]{};:'"\,>./?#$%^&*_~!'''
+        str_punctuation=string.punctuation
+        print('str punctuation',str_punctuation)
+
         if flag:
 
             for x in raw_text:
