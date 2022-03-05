@@ -4,7 +4,7 @@ import os
 import json
 import oauth2 as oauth
 from tweepy import OAuthHandler
-
+from dotenv import load_
 import pandas as pd
 import csv 
 
