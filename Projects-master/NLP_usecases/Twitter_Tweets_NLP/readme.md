@@ -6,3 +6,7 @@
 pip install tweepy 
 #### Functions for Fetching tweets
 To fetch tweets Tweeter has provided reference https://developer.twitter.com/en/docs/tweets/timelines/overview  from which I have used user_timeline but it has Limitation it can fetch max 200 recent tweets in one request but rather than user_timeline is able to fetch 3,200 of a user’s most recent Tweets,so  to get more tweets I have used Cursor http://docs.tweepy.org/en/v3.5.0/cursor_tutorial.html which allows pagination and make request more than 200 tweets. 
+
+Link for storing api key securly
+https://towardsdatascience.com/keeping-things-secret-d9060c73089b
+mv ~/<JSON FILE NAME> ~/.secret/<JSON FLE NAME>
