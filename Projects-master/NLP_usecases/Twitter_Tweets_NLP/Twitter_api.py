@@ -1,15 +1,19 @@
 import tweepy
-from twitter import Api,TwitterError
+# from twitter import Api,TwitterError
 import os
 import json
-import oauth2 as oauth
+# import oauth2 as oauth
 from tweepy import OAuthHandler
-from dotenv import load_
+from dotenv import load_dotenv
 import pandas as pd
 import csv 
 
+load_dotenv()
+
 # CONSUMER_KEY
-CONSUMER_KEY = ''
+
+CONSUMER_KEY = os.getenv('API Key')
+print(CONSUMER_KEY)
 # CONSUMER_SECRET
  
 CONSUMER_SECRET = ''

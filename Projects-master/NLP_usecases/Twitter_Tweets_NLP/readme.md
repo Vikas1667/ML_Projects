@@ -9,4 +9,11 @@ To fetch tweets Tweeter has provided reference https://developer.twitter.com/en/
 
 Link for storing api key securly
 https://towardsdatascience.com/keeping-things-secret-d9060c73089b
-mv ~/<JSON FILE NAME> ~/.secret/<JSON FLE NAME>
+linux or mac: mv ~/<JSON FILE NAME> ~/.secret/<JSON FLE NAME>
+windows: move ~/<JSON FILE NAME> ~/.secret/<JSON FLE NAME>
+
+ignore for git 
+https://www.youtube.com/watch?v=YdgIWTYQ69A
+
+### FinBERT
+https://wandb.ai/ivangoncharov/FinBERT_Sentiment_Analysis_Project/reports/Financial-Sentiment-Analysis-on-Stock-Market-Headlines-With-FinBERT-Hugging-Face--VmlldzoxMDQ4NjM0

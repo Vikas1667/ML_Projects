@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Projects-master/Docker/Kaggle-Google-QUEST-QA-Labeling" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Projects-master/NLP_usecases/named-entity-recognition" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Projects-master/bert-extractive-summarizer" vcs="Git" />
-  </component>
-</project>
