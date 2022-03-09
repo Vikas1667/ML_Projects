@@ -83,6 +83,24 @@ def summarize():
     st.write(summarized)
     st.write(fin_headings)
 
+def get_keys(path):
+    with open(path) as f:
+        return json.load(f)
+
+keys = get_keys(".secret/twitter_api_key.json")
+print(keys['API Key'])
+
+def tweeter_sentiment(search_words,date_since):
+    # Getting authorization
+    consumer_key = keys['API Key']
+    consumer_secret = keys['API Key Secret']
+    access_token = keys['Access Token']
+    access_token_secret = keys['Access Token Secret']
+
+    auth = tw.OAuthHandler(consumer_key, consumer_key_secret)
+    auth.set_access_token(access_token, access_token_secret)
+    api = tw.API(auth, wait_on_rate_limit=True)
+
 
 if __name__ == '__main__':
     st.title("Text Visualizer")
