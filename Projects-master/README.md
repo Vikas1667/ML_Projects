@@ -60,12 +60,16 @@ As a data scientist, LTFS  has tasked you with building a model given the Top-up
 
 ## NLP usecases
 Here is alot usecases developed and under development I will discuss few in skeleton, roadmap and Issues rest you can refer repo under NLP usecases
+Links for repo 
 
-## Biomedical Keyphrase Extractions
+## Biomedical Keyphrase Extractions(Refer repo BioNLP)
+https://github.com/Vikas1667/BioNLP
+
  1. Scispacy
- 2. Sentence Transformers
- 3. Maximal Marginal Retrieval
- 4. D3 plot(Kmapper)
+ 2. Fasttext
+ 3. Sentence Transformers
+ 4. Maximal Marginal Retrieval
+ 5. D3 plot(Kmapper)
   
 ## Text Classification for Binary, Multiclass and Multi label using Deep learning  
  1. CNN 
