@@ -59,7 +59,7 @@ You are provided with two types of information:
 As a data scientist, LTFS  has tasked you with building a model given the Top-up loan bucket of 128655 customers along with demographic and bureau data, predict the right bucket/period for 14745 customers in the test data.
 
 ## NLP usecases
-Here is alot usecase I will discuss few in skeleton, roadmap and Issues rest you can repo uner NLP usecases
+Here is alot usecases developed and under development I will discuss few in skeleton, roadmap and Issues rest you can refer repo under NLP usecases
 
 ## Biomedical Keyphrase Extractions
  1. Scispacy
