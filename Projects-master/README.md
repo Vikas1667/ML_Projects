@@ -103,6 +103,30 @@ https://github.com/Vikas1667/BioNLP
 2. Streamlit Dashboard for Term search  
 3. Patent Article Extraction
 
+## Cloud Computing
+If there is Buzz and we haven't heard not possible 
+
+![Cloud](./AWS_usecases/Cloud.jpg)
+
+## AWS  
+![AWS](./AWS_usecases/AWS_logo.png)
+
+Services used to Development and Deployments
+1. Sagemaker 
+2. Lambda
+3. NLP Comprehend
+4. Textract
+5. Kinesis
+
+## GCP
+![GCP](./GCP_usecases/Google_cloud.png)
+
+1. Vision AI
+2. Cloud Natural Language
+3. Vertex AI
+
+## Azure(In progress)
+![Azure](./GCP_usecases/Azure.jpg)
 
 ## Lung Cancer Detection Using Fuzzy logic and CNN 
 Lung cancer (both small cell and non-small cell) is the second most common cancer in both men and women (not counting skin cancer). In men, prostate cancer is more common, while in women breast cancer is more common. About 14% of all new cancers are lung cancers.
