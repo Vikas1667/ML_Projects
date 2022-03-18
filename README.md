@@ -33,10 +33,6 @@ https://github.com/Vikas1667/BioNLP
 
 ## Language Translation (In progress)
 
-## Biomedical Term search Engine
-1. Fiass 
-2, Sentence Embedding
-
 ## Text Mining and NLP   
 1. News Extraction and NLP(UK and Spainish news) 
 2. Check another repo: stockNLP 
@@ -46,13 +42,17 @@ https://github.com/Vikas1667/BioNLP
 2. Streamlit Dashboard for Term search  
 3. Patent Article Extraction
 
+## Biomedical Term search Engine
+1. Fiass 
+2, Sentence Embedding
+
 ## Cloud Computing
 If there is Buzz and we haven't heard not possible 
 
-![Cloud](./AWS_usecases/Cloud.jpg)
+![Cloud](Projects-master/AWS_usecases/Cloud.jpg)
 
 ## AWS  
-![AWS](./AWS_usecases/AWS_logo.png)
+![AWS](Projects-master/AWS_usecases/AWS_logo.png)
 
 Services used to Development and Deployments
 1. Sagemaker 
@@ -62,14 +62,14 @@ Services used to Development and Deployments
 5. Kinesis
 
 ## GCP
-![GCP](./GCP_usecases/Google_cloud.png)
+![GCP](Projects-master/GCP_usecases/Google_cloud.png)
 
 1. Vision AI
 2. Cloud Natural Language
 3. Vertex AI
 
 ## Azure(In progress)
-![Azure](./GCP_usecases/Azure.jpg)
+![Azure](Projects-master/GCP_usecases/Azure.jpg)
 
 
 ## Building Permit Classification
@@ -83,17 +83,17 @@ MULTIFAMILY
 INDUSTRIAL
 
 Feature engineering
-![image](./ML_usecases/Building_Permit_Classification/featureclassify.jpeg)
+![image](Projects-master/ML_usecases/Building_Permit_Classification/featureclassify.jpeg)
 
 # KMeans for Clustering Geospatial Locations
 Missing values
-![Missing value](./ML_usecases/Building_Permit_Classification/insights/missing_count.png)
+![Missing value](Projects-master/ML_usecases/Building_Permit_Classification/insights/missing_count.png)
 
 Categorical Distribution
-![Categorical plot](./ML_usecases/Building_Permit_Classification/insights/categorical_count.png)
+![Categorical plot](Projects-master/ML_usecases/Building_Permit_Classification/insights/categorical_count.png)
 
 Kmeans Clustering
-![Kmeans](./ML_usecases/Building_Permit_Classification/insights/kmeans_clustering.png)
+![Kmeans](Projects-master/ML_usecases/Building_Permit_Classification/insights/kmeans_clustering.png)
 
 DateTime Conversion 
 ./ML_usecases/Building_Permit_Classification/
@@ -101,14 +101,14 @@ DateTime Conversion
 Model Training 
 As we have Text features so we use TFIDF with 20 features and 50 features 
 and use catboost model for classification and shap to get insights
-![catboost](./ML_usecases/Building_Permit_Classification/insights/catboost_results.png)
-![shap](./ML_usecases/Building_Permit_Classification/insights/catboost_shap.png)
+![catboost](Projects-master/ML_usecases/Building_Permit_Classification/insights/catboost_results.png)
+![shap](Projects-master/ML_usecases/Building_Permit_Classification/insights/catboost_shap.png)
 
 Finally Deep learning 
-![Deep learning](./ML_usecases/Building_Permit_Classification/Deep_learning_LSTM.png)
+![Deep learning](Projects-master/ML_usecases/Building_Permit_Classification/Deep_learning_LSTM.png)
 
 Evaluation metrics
-![Evaluation](./ML_usecases/Building_Permit_Classification/insights/ROC_AUC_Plot.JPG)
+![Evaluation](Projects-master/ML_usecases/Building_Permit_Classification/insights/ROC_AUC_Plot.JPG)
 
 ## Loan Top Up Prediction(Hackathon)
 
