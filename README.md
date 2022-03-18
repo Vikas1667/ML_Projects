@@ -71,7 +71,11 @@ Services used to Development and Deployments
 ## Azure(In progress)
 ![Azure](Projects-master/GCP_usecases/Azure.jpg)
 
+Machine Learning Prediction and classification
 
+1. Building Permit Classification
+2. Loan topup Prediction
+3. Insurance claim prediction
 
 ## Image classification and Segmentation
 Bacterial strips often required to segment before feeding deep learning models for computation, so accurate segmentation is vital part is evaluated 
@@ -85,7 +89,7 @@ About 154,050 deaths from lung cancer (83,550 in men and 70,500 in women)
 CT scan images is been used for processing.In preprocessing, segementation is important step to reduce computational time as well as space.In segmentation, lungs to be extracted from alonside parts like ribs,air,etc which can be precisely because if it is not done there is chances of loosing important data.   
 
 
-#### Selfie Image Classification
+## Selfie Image Classification
 How to Take a Good Selfie?
 Mahdi M. Kalayeh, Misrak Seifu, Wesna LaLanne, Mubarak Shah
 mahdi@eecs.ucf.edu, misrak.seifu@gmail.com, wlalanne@knights.ucf.edu, shah@crcv.ucf.edu
