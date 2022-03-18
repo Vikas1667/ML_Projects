@@ -8,3 +8,9 @@ AG is a collection of more than 1 million news articles.News articles have been 
 The AG's news topic classification dataset is constructed by choosing 4 largest classes from the original corpus. Each class contains 30,000 training samples and 1,900 testing samples. The total number of training samples is 120,000 and testing 7,600.
 The file classes.txt contains a list of classes corresponding to each label. The files train.csv and test.csv contain all the training samples as comma-sparated values. There are 3 columns in them, corresponding to class index (1 to 4), title and description. The title and description are escaped using double quotes ("), and any internal double quote is escaped by 2 double quotes (""). New lines are escaped by a backslash followed with an "n" character, that is "\n".
 
+## Consumer Narratives classification
+The dataset comprises of Consumer Complaints on Financial products and we'll see how to classify consumer complaints text into these categories: Debt collection, Consumer Loan, Mortgage, Credit card, Credit reporting, Student loan, Bank account or service, Payday loan, Money transfers, Other financial service, Prepaid card.
+
+The classification task would help banking/financial institution to quickly identify and provide customized solutions to each customer based on complaints received departmentwise. 
+The dataset is available in link:- https://www.kaggle.com/cfpb/us-consumer-finance-complaints
+
