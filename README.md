@@ -90,8 +90,6 @@ The dataset comprises of Consumer Complaints on Financial products and we'll see
 The classification task would help banking/financial institution to quickly identify and provide customized solutions to each customer based on complaints received departmentwise. 
 The dataset is available in link:- https://www.kaggle.com/cfpb/us-consumer-finance-complaints
 
-## Insurance claim Prediction
-## Loan Prediction
 
 
 #### Description 
