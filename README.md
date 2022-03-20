@@ -26,8 +26,19 @@ https://github.com/Vikas1667/BioNLP
   3. Affinity Propogation clustering
   
 ## Sentiment Analysis (Inprogress) using CNN, LSTM and Transformers for Financial Data 
-   1. Finbert(Under development)   
-   2. BSNL and Keyword search Twitter Sentiment analysis(Under development)
+   1. News sentiment  
+    
+   | Title | Headline | Source | Topic | PublishDate | Facebook | GooglePlus | LinkedIn | SentimentTitle | SentimentHeadline |
+   | ----- | -------- | ------ | ----- | ----------- | -------- | ---------- | -------- | -------------- | ----------------- |
+     
+   2. News scraping and applying Finbert
+    News scrap source
+    1. DailyNews 
+    2. El Pais
+    3. Investing.com
+    
+           
+   3. BSNL and Keyword search Twitter Sentiment analysis(Under development)
 
 ## Indent and Emotion classification(To start)
 
