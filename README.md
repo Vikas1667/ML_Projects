@@ -43,6 +43,8 @@ https://github.com/Vikas1667/BioNLP
 ## Indent and Emotion classification(To start)
 
 ## Language Translation (In progress)
+1. English to French
+2. French into Fongbe or Ewe(Kaggle)
 
 ## Text Mining and NLP   
 1. News Extraction and NLP(UK and Spainish news) 
