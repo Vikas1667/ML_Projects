@@ -1,0 +1,13 @@
+1. Combine these 10 excel sheets into 1 excel sheet and save the sheet.
+2. Title case every name of ARTISIAN_NAME, FATHER_AND_SPOUSES_NAME and VILLAGE column.
+3. NAME_OF_CRAFT column contains strings like 
+	1. Cane & Bamboo 
+	2. Cane and Bamboo 
+   consider these 2 strings as 1 that is replace these 2 strings with 1 common name for e.g. Cane and Bamboo for both of them
+4. Do Analysis and Visualization of the dataset.
+5. Scrape this website table Municipal Councillors contact information and save it in csv. [http://diehardindian.com/ward-offices-and-corporators/]
+
+Submit jupyter notebook (.ipynb) file 
+to -> hr.neubrain@gmail.com and vijay@neubrain.in
+cc -> omkardsneubrain@gmail.com
+
