@@ -133,3 +133,11 @@ app where they can watch the video, and whenever they pause the video to inspect
 anything, we will be able to show them the images taken at that point. It will 
 add great value to our entire offering.
 
+# Upcoming Usecase Skeletons 
+
+## Unsupervised Summarization, NER, Text Classification
+
+### Conformer
+https://medium.com/syncedreview/google-brain-sets-new-semi-supervised-learning-sota-in-speech-recognition-1ab53712e257
+https://github.com/sooftware/conformer
+
