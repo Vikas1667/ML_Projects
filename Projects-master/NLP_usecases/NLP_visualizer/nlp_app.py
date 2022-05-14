@@ -7,6 +7,7 @@ from transformers import pipeline
 import string
 import en_core_web_sm
 nlp = en_core_web_sm.load()
+import json
 
 def data_loader():
     uploaded_file = st.file_uploader("Choose a csv file", type=['.csv', '.xlsx', '.txt'])
