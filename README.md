@@ -59,7 +59,7 @@ https://github.com/Vikas1667/BioNLP
 1. Fiass 
 2, Sentence Embedding
 
-## Cloud Computing
+## Cloud Computing and Application
 If there is Buzz and we haven't heard not possible 
 
 ![Cloud](Projects-master/AWS_usecases/Cloud.jpg)
@@ -83,6 +83,17 @@ Services used to Development and Deployments
 
 ## Azure(In progress)
 ![Azure](Projects-master/GCP_usecases/Azure.jpg)
+
+## Scalable Application Builds
+
+## Flutter
+
+<span style="color:orange"><font size="5">Flutter transforms the app development process</span></font>
+
+![flutter](./Projects-master/ML_usecases/Flutter.png)
+![Ray](./Projects-master/ML_usecases/Ray.png)
+![Dask](./Projects-master/ML_usecases/Dask.png)
+
 
 Machine Learning Prediction and classification
 
