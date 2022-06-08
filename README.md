@@ -86,12 +86,18 @@ Services used to Development and Deployments
 
 ## Scalable Application Builds
 
-## Flutter
+### Flutter
 
 <span style="color:orange"><font size="5">Flutter transforms the app development process</span></font>
 
 ![flutter](./Projects-master/ML_usecases/Flutter.png)
+
+Ray is an open source project that makes it simple to scale any compute-intensive Python workload — from deep learning to production model serving — with a rich set of libraries and integrations.
 ![Ray](./Projects-master/ML_usecases/Ray.png)
+
+## Dask 
+Dask provides advanced parallelism for analytics, enabling performance at scale for the tools you love
+
 ![Dask](./Projects-master/ML_usecases/Dask.png)
 
 
@@ -151,4 +157,6 @@ add great value to our entire offering.
 ### Conformer
 https://medium.com/syncedreview/google-brain-sets-new-semi-supervised-learning-sota-in-speech-recognition-1ab53712e257
 https://github.com/sooftware/conformer
+
+
 
