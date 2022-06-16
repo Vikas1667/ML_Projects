@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request
-
 from preprocess import preprocess
 from keyphrase_extractor import candidate_keyword
 
