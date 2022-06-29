@@ -1,6 +1,6 @@
 ############################################  NOTE  ########################################################
 #
-#           Creates NER training data in Spacy format from JSON downloaded from Dataturks.
+#           Creates NER_workflow training data in Spacy format from JSON downloaded from Dataturks.
 #
 #           Outputs the Spacy training data which can be used for Spacy training.
 #
@@ -46,7 +46,7 @@ def convert_dataturks_to_spacy(dataturks_JSON_FilePath):
         return None
 
 import spacy
-################### Train Spacy NER.###########
+################### Train Spacy NER_workflow.###########
 def train_spacy():
 
     TRAIN_DATA = convert_dataturks_to_spacy("Entity Recognition in Resumes.json")
@@ -65,7 +65,7 @@ def train_spacy():
 
     # get names of other pipes to disable them during training
     other_pipes = [pipe for pipe in nlp.pipe_names if pipe != 'ner']
-    with nlp.disable_pipes(*other_pipes):  # only train NER
+    with nlp.disable_pipes(*other_pipes):  # only train NER_workflow
         optimizer = nlp.begin_training()
         for itn in range(10):
             print("Statring iteration " + str(itn))

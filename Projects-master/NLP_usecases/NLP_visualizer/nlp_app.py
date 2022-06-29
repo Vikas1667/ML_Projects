@@ -105,7 +105,7 @@ def tweeter_sentiment(search_words,date_since):
 
 if __name__ == '__main__':
     st.title("Text Visualizer")
-    activity1 = ["Data Loader", "Summarize", "Text Preprocessing", "NER", "KeyWord_extractor"]
+    activity1 = ["Data Loader", "Summarize", "Text Preprocessing", "NER_workflow", "KeyWord_extractor"]
     choice = st.sidebar.selectbox("Select Function ", activity1)
 
     # data_loader()
@@ -118,7 +118,7 @@ if __name__ == '__main__':
     if choice == 'Text Preprocessing':
         raw_text = st.text_area("Enter Text Here", "Type Here")
         text_preprocessing()
-    if choice == 'NER':
+    if choice == 'NER_workflow':
         # Getting Entity and type of Entity
         entities = []
         entityLabels = []
