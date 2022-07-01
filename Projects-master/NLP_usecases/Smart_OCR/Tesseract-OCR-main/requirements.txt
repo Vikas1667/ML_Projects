@@ -1,0 +1,8 @@
+pytesseract
+pdf2image
+streamlit
+opencv-python
+tesseract-ocr
+libgl1
+tk
+poppler-utils
