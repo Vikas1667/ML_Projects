@@ -21,12 +21,12 @@ import pandas as pd
 # converts pdf to list of images
 def pdf_to_img(pdf):
     pdf_pages = convert_from_path(pdf, dpi=350, poppler_path=r'C:\Program Files\poppler-0.68.0\bin')
-    i = 1
+    page_no = 1
     img_list = []
     for page in pdf_pages:
-        page.save('page' + str(i) + '.jpg', 'JPEG')
-        img_list.append('page' + str(i) + '.jpg')
-        i += 1
+        page.save('page' + str(page_no) + '.jpg', 'JPEG')
+        img_list.append('page' + str(page_no) + '.jpg')
+        page_no += 1
     print('PDF to Image Conversion Successful!')
     return img_list
 
