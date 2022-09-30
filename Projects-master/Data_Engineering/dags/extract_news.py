@@ -8,10 +8,12 @@ from airflow import DAG
 from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.python_operator import PythonOperator
 
+# from airflow.decorators import dag, task
 # Newspaper3k
-# import newspaper
-# from newspaper import Article
+import newspaper
+from newspaper import Article
 
+#
 # Quilt
 # import t4
 # from newspaper import Article
@@ -19,7 +21,7 @@ from airflow.operators.python_operator import PythonOperator
 default_args = {
     'owner': 'Vikas',
     'depends_on_past': False,
-    'start_date': datetime(2019, 1, 1),
+    'start_date': datetime(2022, 1, 1),
     'email': ['vikas.kumbharkar@gmail.com'],
     'email_on_failure': False,
     'email_on_retry': False,
@@ -56,10 +58,7 @@ def scrape_articles(**kwargs):
     for s in sources:
         print(f"START: Scrape articles from '{s}'")
         print(f"START: Build newspaper")
-        paper = newspaper.build(
-            s,
-            memoize_articles=False # Don't cache articles
-        )
+        paper = newspaper.build(s,memoize_articles=False)
         print(f"END: Build newspaper")
         keywords_list = list()
         print("START: Collect articles")
@@ -81,6 +80,8 @@ def scrape_articles(**kwargs):
         sources_keywords[s] = keywords_list
         print("END: Collect articles")
         print(f"END: Scrape articles from '{paper}'")
+    print('Keywords and sources keywords',keywords_list,sources_keywords)
+
     return sources_keywords
 
 def write_to_json(**context):
@@ -97,7 +98,11 @@ def write_to_json(**context):
     """
     data_directory = context['directory']
     file_name = context['filename']
+    print('\nTask Instance:',context['task_instance'])
     keywords = context['task_instance'].xcom_pull(task_ids='scrape_articles')
+    print("Keywords Extracted finally",keywords)
+    keywords_dict=json.loads(keywords)
+    print('Keywords Extracted_dictionary',keywords_dict)
     file_names = list()
     for k in keywords:
         # Strip leading 'https://' and trailing '.com'
@@ -121,12 +126,14 @@ task1 = PythonOperator(
     python_callable=scrape_articles,
     op_kwargs={
         'source_urls': [
-            'https://theguardian.com',
+            # 'https://theguardian.com',
             'https://nytimes.com',
             'https://cnn.com'
         ],
-        'category': 'politics'
+        'category': 'food'
     },
+    do_xcom_push=True,
+    provide_context=True,
     dag=dag
 )
 
@@ -137,7 +144,9 @@ task2 = PythonOperator(
         'directory': 'data',
         'filename': 'keywords.json'
     },
+    provide_context=True,
     dag=dag
+
 )
 
 

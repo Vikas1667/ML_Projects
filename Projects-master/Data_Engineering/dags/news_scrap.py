@@ -4,7 +4,8 @@ import pandas as pd
 import re
 import time
 from datetime import datetime, timedelta
-
+import nltk
+nltk.download('punkt')
 from airflow.operators.python_operator import PythonOperator
 from airflow import DAG
 
@@ -98,3 +99,4 @@ task1 = PythonOperator(
     op_kwargs={'source_urls':'https://www.dailymail.co.uk'},
     dag=dag
 )
+
