@@ -1,6 +1,7 @@
 # Projects
 ### Here some small usecases and small skeleton of ML Projects with working prototypes 
 
+
 ## NLP usecases
 Here is alot usecases developed and under development I will discuss few in skeleton, roadmap and Issues rest you can refer repo under NLP usecases
 Links for repo 
@@ -24,6 +25,7 @@ https://github.com/Vikas1667/BioNLP
   1. Scispacy
   2. Scibert and KeBioLM
   3. Affinity Propogation clustering
+
   
 ## Sentiment Analysis (Inprogress) using CNN, LSTM and Transformers for Financial Data 
    1. News sentiment  
@@ -48,8 +50,14 @@ https://github.com/Vikas1667/BioNLP
 
 ## Text Mining and NLP   
 1. News Extraction and NLP(UK and Spainish news) 
-2. Check another repo: stockNLP 
+2. Check another repo: stockNLP
 
+
+
+## Text Summarization
+### Generative
+##  1. Document Summarization
+### Abstractive 
 ## Biomedical Article Extraction(check BioNLP repo)
 1. Pubmed Extraction Skeleton 
 2. Streamlit Dashboard for Term search  
@@ -108,8 +116,18 @@ Machine Learning Prediction and classification
 3. Insurance claim prediction
 
 ## Image classification and Segmentation
+
+
+
+## OpenCV and Yolo Model Understanding
+1. Document Data Extraction
+
+
+
 Bacterial strips often required to segment before feeding deep learning models for computation, so accurate segmentation is vital part is evaluated 
 selfie image is been required to identify from various sources and its trained using CNN.
+
+
 
 ## Lung Cancer Detection Using Fuzzy logic and CNN 
 Lung cancer (both small cell and non-small cell) is the second most common cancer in both men and women (not counting skin cancer). In men, prostate cancer is more common, while in women breast cancer is more common. About 14% of all new cancers are lung cancers.
