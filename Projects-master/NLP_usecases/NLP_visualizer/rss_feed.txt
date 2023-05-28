@@ -1,0 +1,5 @@
+#pubmed covid
+https://pubmed.ncbi.nlm.nih.gov/rss/search/1VCF4_1oOVasbKoDi7KGrtssrUQvxJigm_Xs8F0fz22ab_RYPx/?limit=15&utm_campaign=pubmed-2&fc=20211004011353  ---10
+https://pubmed.ncbi.nlm.nih.gov/rss/search/123Q1E1Q18WExrUJrn1knOH25eqJ_5VeXwtuSy3yenoZ5XzMRS/?limit=15&utm_campaign=pubmed-2&fc=20211004011912  ---15
+https://pubmed.ncbi.nlm.nih.gov/rss/search/1bEX5bJHyhtug4E4OxEmIAnpy4KvHOnRqSHeO7WLXqM5ZoiEfi/?limit=100&utm_campaign=pubmed-2&fc=20211004012418 --100
+
