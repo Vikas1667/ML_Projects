@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.8 (Pytorchgpu)" project-jdk-type="Python SDK" />
+  <component name="ProjectResources">
+    <resource url="http://soap.sforce.com/2006/04/metadata" location="$APPLICATION_PLUGINS_DIR$/IlluminatedCloud2/lib/IlluminatedCloud.jar!/xsd/metadata.xsd" />
+    <resource url="urn:metadata.tooling.soap.sforce.com" location="$APPLICATION_PLUGINS_DIR$/IlluminatedCloud2/lib/IlluminatedCloud.jar!/xsd/metadata.xsd" />
+    <xml-schema-version>XMLSchema_1_1</xml-schema-version>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.7" project-jdk-type="Python SDK" />
 </project>
