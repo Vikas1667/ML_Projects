@@ -101,6 +101,7 @@ def unique_records(df,key='PO'):
 def update_records(query,updated_val,po):
 
     try:
+
         db_cm.update(query,updated_val)
         po_status_data = find_with_po(po)
         df = records_dataframe(po_status_data)
