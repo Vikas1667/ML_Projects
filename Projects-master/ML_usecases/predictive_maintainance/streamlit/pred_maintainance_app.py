@@ -12,13 +12,7 @@ model_path = './Output/regression_model.h5'
 # COMPUTE_WH	BLUECLOUD_IOT	PUBLIC
 def create_snowflake_connection():
     conn = snowflake.connector.connect(
-        user='Vikas1667',
-        password='Kalika@1992',
-        account='fx33057.ap-southeast-1',
-        role="ACCOUNTADMIN",
-        warehouse='COMPUTE_WH',
-        database='BLUECLOUD_IOT',
-        schema='PUBLIC',
+
     )
     return conn
 
