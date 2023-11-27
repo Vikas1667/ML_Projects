@@ -40,13 +40,15 @@ def get_text_chunks(text):
     chunks = text_splitter.split_text(text)
     return chunks
 
-
+# quantization techniques
 def get_vectorstore(text_chunks):
     # embeddings = OpenAIEmbeddings()
     # embeddings = HuggingFaceInstructEmbeddings(model_name="hkunlp/instructor-xl")
 
-    embeddings =HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
+    # embeddings =HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
+    # embeddings =HuggingFaceEmbeddings(model_name="llmware/industry-bert-contracts-v0.1")
 
+    embeddings = HuggingFaceEmbeddings(model_name="hkunlp/instructor-xl")
     vectorstore = FAISS.from_texts(texts=text_chunks, embedding=embeddings)
     return vectorstore
 
