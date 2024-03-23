@@ -3,8 +3,10 @@ import pandas as pd
 import datetime
 import yfinance as yf
 import schedule
-sys.path.append('..')
-from lstm_model import model_train_triger
+# sys.path.append('..')
+from stock_utils.lstm_model import model_train_triger
+
+
 import streamlit as st
 
 dir_path=r"V:/ML_projects/StockMarket_Analysis/data/stock_metadata/"
@@ -23,16 +25,13 @@ def equity_history(symbol,start_date,end_date):
         return data
 
     except Exception as e:
-        return e
+        return st.write(e)
+
 
 def data_read():
 
     # df=pd.read_csv(os.path.join(dir_path,file_path))
     date_range_string=datetime.datetime.now() - datetime.timedelta(days=180), datetime.datetime.now()
-
-    # data=yahoo_index_data("NIFTY_FIN_SERVICE.NS")
-    # data=data.rename_axis('DateTime').reset_index()
-    # plot_chart(data)
 
     df = equity_history("NIFTY_FIN_SERVICE.NS", date_range_string[0], date_range_string[1])
 
@@ -40,12 +39,16 @@ def data_read():
 
     return data
 
-def lstm_model_scheduler(df):
 
-    ### from previous checkpoint retraining should be trigger
-    st.write("Scheduler started")
-    model=model_train_triger(df)
-    model.save('..\data\stock_metadata\models/lstm_fin_nifty_prediction_latest1.keras')
 
+def yahoo_index_data(symbol):
+    '''
+
+    :param symbol: nse symbol
+    :return: data download
+
+    '''
+    data = yf.download(tickers=symbol, period='1d', interval='15m')
+    return data
 
 
