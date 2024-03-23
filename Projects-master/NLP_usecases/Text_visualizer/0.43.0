@@ -1,0 +1,29 @@
+Found existing installation: bitsandbytes 0.42.0
+Uninstalling bitsandbytes-0.42.0:
+  Would remove:
+    c:\users\hp\anaconda3\envs\kalichat\lib\site-packages\bitsandbytes-0.42.0.dist-info\*
+    c:\users\hp\anaconda3\envs\kalichat\lib\site-packages\bitsandbytes\*
+    c:\users\hp\anaconda3\envs\kalichat\lib\site-packages\tests\*
+  Would not remove (might be manually added):
+    c:\users\hp\anaconda3\envs\kalichat\lib\site-packages\tests\slow\__init__.py
+    c:\users\hp\anaconda3\envs\kalichat\lib\site-packages\tests\slow\test_dpo_slow.py
+    c:\users\hp\anaconda3\envs\kalichat\lib\site-packages\tests\slow\test_sft_slow.py
+    c:\users\hp\anaconda3\envs\kalichat\lib\site-packages\tests\slow\testing_constants.py
+    c:\users\hp\anaconda3\envs\kalichat\lib\site-packages\tests\test_best_of_n_sampler.py
+    c:\users\hp\anaconda3\envs\kalichat\lib\site-packages\tests\test_core.py
+    c:\users\hp\anaconda3\envs\kalichat\lib\site-packages\tests\test_data_collator_completion_only.py
+    c:\users\hp\anaconda3\envs\kalichat\lib\site-packages\tests\test_dataset_formatting.py
+    c:\users\hp\anaconda3\envs\kalichat\lib\site-packages\tests\test_ddpo_trainer.py
+    c:\users\hp\anaconda3\envs\kalichat\lib\site-packages\tests\test_dpo_trainer.py
+    c:\users\hp\anaconda3\envs\kalichat\lib\site-packages\tests\test_e2e.py
+    c:\users\hp\anaconda3\envs\kalichat\lib\site-packages\tests\test_environments.py
+    c:\users\hp\anaconda3\envs\kalichat\lib\site-packages\tests\test_iterative_sft_trainer.py
+    c:\users\hp\anaconda3\envs\kalichat\lib\site-packages\tests\test_modeling_value_head.py
+    c:\users\hp\anaconda3\envs\kalichat\lib\site-packages\tests\test_no_peft.py
+    c:\users\hp\anaconda3\envs\kalichat\lib\site-packages\tests\test_peft_models.py
+    c:\users\hp\anaconda3\envs\kalichat\lib\site-packages\tests\test_ppo_trainer.py
+    c:\users\hp\anaconda3\envs\kalichat\lib\site-packages\tests\test_reward_trainer.py
+    c:\users\hp\anaconda3\envs\kalichat\lib\site-packages\tests\test_sft_trainer.py
+    c:\users\hp\anaconda3\envs\kalichat\lib\site-packages\tests\testing_constants.py
+    c:\users\hp\anaconda3\envs\kalichat\lib\site-packages\tests\testing_utils.py
+Proceed (Y/n)?   Successfully uninstalled bitsandbytes-0.42.0
