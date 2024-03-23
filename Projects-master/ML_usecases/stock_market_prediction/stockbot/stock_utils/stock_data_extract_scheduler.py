@@ -4,7 +4,7 @@ import datetime
 import yfinance as yf
 import schedule
 sys.path.append('..')
-from stockbot.stock_utils.lstm_model import model_train_triger
+from lstm_model import model_train_triger
 import streamlit as st
 
 dir_path=r"V:/ML_projects/StockMarket_Analysis/data/stock_metadata/"

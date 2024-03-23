@@ -162,7 +162,7 @@ def prediction_data_plot(model,pred_data):
 
 def model_train_triger(df):
 
-    # df=df.reset_index()['Close']
+    df=df.reset_index()['Close']
     print(df.head(2))
     train_data,test_data=data_prep(df)
 

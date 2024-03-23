@@ -18,7 +18,8 @@ import streamlit as st
 import os,sys
 # sys.path.append('..')
 # from stock_data_extract_scheduler import lstm_model_scheduler
-
+from pathlib import Path
+directory=r'V:/ML_projects/github_projects/ML_projects/Projects-master/ML_usecases/stock_market_prediction/stockbot/models'
 
 import tensorflow
 import datetime
@@ -69,11 +70,16 @@ def lstm_model_scheduler(df):
 
     ### from previous checkpoint retraining should be trigger
     # st.write("Scheduler started")
+    try:
+        print("scheduler started")
+        model=model_train_triger(df)
 
-    print("scheduler started")
-    model=model_train_triger(df)
-    model.save('..\data\stock_metadata\models/lstm_fin_nifty_prediction_latest1.keras')
-
+        os.makedirs(directory,exist_ok=True)
+        model_path=os.path.join(directory, 'fin_lstm_model.keras')
+        model.save(model_path)
+        print("Model saved at {}".format(directory))
+    except Exception as e:
+        print("error while schedule run")
 def load_lstm_model(model_path):
     model = tensorflow.keras.saving.load_model(model_path)
     return model
@@ -143,18 +149,18 @@ if __name__ == '__main__':
     #     except Exception as e:
     #         st.write(e)
     try:
-        # schedule.every().day.at("00:42").do(lstm_model_scheduler, df=data)
-        lstm_model_scheduler(df)
+        schedule.every().day.at("22:05").do(lstm_model_scheduler, df=data)
+        # lstm_model_scheduler(df)
     except Exception as e:
         print("Exception occured as schedule")
 
 
-    # while True:
-    #     # Checks whether a scheduled task
-    #     # is pending to run or not
-    #     schedule.run_pending()
-    #     print("schedule is in running")
-    #     time.sleep(1)
+    while True:
+        # Checks whether a scheduled task
+        # is pending to run or not
+        schedule.run_pending()
+        print("schedule is in running")
+        time.sleep(1)
 
     # st.write(df)
 # data_path = "../data/stock_metadata/ind_nifty50list.csv"
