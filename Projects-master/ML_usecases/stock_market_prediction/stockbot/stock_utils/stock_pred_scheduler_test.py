@@ -57,12 +57,11 @@ def data_read():
     date_range_string=datetime.datetime.now() - datetime.timedelta(days=180000), datetime.datetime.now()
 
     # data=yahoo_index_data("NIFTY_FIN_SERVICE.NS")
-    # data=data.rename_axis('DateTime').reset_index()
-    # plot_chart(data)
 
     df = equity_history("NIFTY_FIN_SERVICE.NS", date_range_string[0], date_range_string[1])
 
     data = df.rename_axis('DateTime').reset_index()
+    # plot_chart(data)
 
     return data
 
@@ -80,6 +79,7 @@ def lstm_model_scheduler(df):
         print("Model saved at {}".format(directory))
     except Exception as e:
         print("error while schedule run")
+
 def load_lstm_model(model_path):
     model = tensorflow.keras.saving.load_model(model_path)
     return model
@@ -136,21 +136,16 @@ if __name__ == '__main__':
 
     data = df.rename_axis('DateTime').reset_index()
 
-    # plot_chart(data)
-    #
+    plot_chart(data)
     # model=load_lstm_model(model_path)
     # st.table(data_read().head(10))
     # if st.button("Prediction"):
     #     model_pred(model,data)
-    #
-    # if st.sidebar.button("schedule"):
-    #     try:
-    #         schedule.every().day.at("23:47").do(lstm_model_scheduler,df=df)
-    #     except Exception as e:
-    #         st.write(e)
+
     try:
         schedule.every().day.at("22:05").do(lstm_model_scheduler, df=data)
         # lstm_model_scheduler(df)
+
     except Exception as e:
         print("Exception occured as schedule")
 
@@ -161,13 +156,4 @@ if __name__ == '__main__':
         schedule.run_pending()
         print("schedule is in running")
         time.sleep(1)
-
-    # st.write(df)
-# data_path = "../data/stock_metadata/ind_nifty50list.csv"
-
-
-# read_data(data_path)
-
-
-#if prediction for close as well as for all other
 

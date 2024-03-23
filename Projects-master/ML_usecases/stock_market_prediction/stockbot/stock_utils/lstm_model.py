@@ -5,7 +5,7 @@ from sklearn.preprocessing import MinMaxScaler
 import numpy
 import streamlit as st
 import altair as alt
-
+import tensorflow
 ### Create the Stacked LSTM model
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
@@ -14,6 +14,10 @@ from numpy import array
 from datetime import date, timedelta
 import plotly.graph_objects as go
 import plotly.express as px
+
+
+
+
 
 def data_prep(df):
     ### LSTM are sensitive to the scale of the data. so we apply MinMax scaler
@@ -175,6 +179,8 @@ def model_pred(model,df):
     prediction_data_plot(model,df)
 
 
+# def lstm_model(df):
+#     model=model_train_triger(df)
 
 # if __name__ == '__main__':
     ## load the downloaded dataset or user to get data from nse

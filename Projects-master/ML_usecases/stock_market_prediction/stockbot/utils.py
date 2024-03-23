@@ -78,6 +78,9 @@ def get_details(url):
         return ""
 
 
+def read_data(stck_path):
+    nse_list=pd.read_csv(stck_path)
+    st.table(nse_list)
 def star_new_crawler(page, search_query, limit):
     df=pd.DataFrame()
     title = []
