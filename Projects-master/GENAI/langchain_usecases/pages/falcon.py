@@ -18,8 +18,10 @@ prompt = PromptTemplate(
 Answer: Let's think step by step."""
 )
 # ,
+hg=st.secrets.huggingface_api.token
+
 # llm=HuggingFaceHub(repo_id='tiiuae/falcon-7b-instruct',huggingfacehub_api_token="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")
-llm=HuggingFaceHub(repo_id="huggingfaceh4/zephyr-7b-alpha",huggingfacehub_api_token="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")
+llm=HuggingFaceHub(repo_id="huggingfaceh4/zephyr-7b-alpha",huggingfacehub_api_token=hg)
 
 # memory = ConversationBufferWindowMemory(memory_key="chat_history", k=4)
 llm_chain = LLMChain(

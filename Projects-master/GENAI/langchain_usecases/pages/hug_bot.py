@@ -1,4 +1,4 @@
-    # https://www.analyticsvidhya.com/blog/2023/12/implement-huggingface-models-using-langchain/
+# https://www.analyticsvidhya.com/blog/2023/12/implement-huggingface-models-using-langchain/
 import streamlit as st
 from langchain.llms import HuggingFaceHub
 import os
