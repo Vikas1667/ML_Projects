@@ -20,8 +20,8 @@ Answer: Let's think step by step."""
 # ,
 hg=st.secrets.huggingface_api.token
 
-# llm=HuggingFaceHub(repo_id='tiiuae/falcon-7b-instruct',huggingfacehub_api_token="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")
-llm=HuggingFaceHub(repo_id="huggingfaceh4/zephyr-7b-alpha",huggingfacehub_api_token=hg)
+llm=HuggingFaceHub(repo_id='tiiuae/falcon-7b-instruct',huggingfacehub_api_token="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")
+# llm=HuggingFaceHub(repo_id="huggingfaceh4/zephyr-7b-alpha",huggingfacehub_api_token=hg)
 
 # memory = ConversationBufferWindowMemory(memory_key="chat_history", k=4)
 llm_chain = LLMChain(
@@ -36,11 +36,6 @@ st.set_page_config(
     layout="wide"
 )
 
-st.set_page_config(
-    page_title="ChatGPT Clone",
-    page_icon="🤖",
-    layout="wide"
-)
 st.title("ChatGPT Clone")
 
 # check for messages in session and create if not exists
