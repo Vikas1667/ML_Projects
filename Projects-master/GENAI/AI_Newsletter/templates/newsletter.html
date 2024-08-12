@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI News Newsletter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            padding: 20px 0;
+            background-color: #007bff;
+            color: white;
+            margin: 0;
+        }
+        .header-gif {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        p {
+            font-size: 14px;
+            padding: 0 20px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 20px 0;
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        h3 {
+            color: #007bff;
+            margin: 0 20px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin: 10px 20px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .bold-text {
+            font-weight: bold; /* Make text bold */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AI News Newsletter</h1>
+<!--        <img src="Newsletter Email Header.gif" alt="AI News Header" class="header-gif"> &lt;!&ndash; Ensure the GIF is in the same directory &ndash;&gt;-->
+        <p class="bold-text">Here are the latest AI news articles:</p>
+        <ul>
+            {% for article in articles %}
+                <li><span class="bold-text">{{ article.title }}</span> - <a href="{{ article.url }}">Read more</a></li>
+            {% else %}
+                <li>No articles found.</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
