@@ -13,7 +13,7 @@ app = Flask(__name__)
 # Email configuration
 sender_email = "vikas.kumbharkar308@gmail.com"
 # receiver_email = "vikas.kumbharkar308@gmail.com"
-password = ""
+password = "ozmd tskk juua itud"
 # password = ""
 # conn = sqlite3.connect('newsletterdb.db',check_same_thread=False)
 # conn = sqlite3.connect('E:/mydatabase.db')  # Windows
@@ -42,6 +42,7 @@ def rendering_template():
     # articles = fetch_ai_news()
 
     articles=news_fetcher()
+
     html_content = render_template('newsletter.html', articles=articles)
     return html_content
 
