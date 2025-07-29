@@ -27,6 +27,9 @@
 ## Video Shorts creation 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d5204ca6-923f-4869-bf6b-4adb0c268d69" />
 
+[![Youtube Shorts](https://github.com/Vikas1667/ML_Projects/blob/master/clipcraftai.png)](https://www.youtube.com/watch?v=Fpa-GR39Lzw)
+
+
 ### Videos with images creation pipeline v2
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/7f5a93eb-0c87-420a-929b-843f1f3e09f9" />
 
