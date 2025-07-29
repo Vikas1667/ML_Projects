@@ -1,126 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>KaliSoft AI - Intelligent Automation</title>
+# Visual Flow Diagram and Updated README for AI Agent Command CenterI've created a comprehensive visual flow diagram and completely updated README file for your AI Agent Command Center application.## Updated Application FlowThe visual diagram above illustrates the complete user journey through your AI Agent Command Center, showing:
 
-    <!-- Tailwind CSS CDN for styling -->
-    <script src="https://cdn.tailwindcss.com"></script>
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/6dab7a0a-112b-4976-b63a-d3caaccc9bc9" />
 
-    <!-- Google Fonts: Inter -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet" />
+### **Main Application Flow**
+- **App Launch** → **Agent Selection Screen** → **Choose Agent Type**
 
-    <!-- Font Awesome for icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-BxYXo21r+sInol2ViOsAioXmaUsHpmnWYYeb3pZ1ZOGkfjS6Oy2LPBzQiZ5B0g2fNKGzdO1tbK5mF12n6D17Sw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+### **Marketing Outreach Workflow** 
+- Dashboard with company search and filtering
+- Company selection and contact extraction
+- AI-powered email generation and management
+- Company profile settings for personalization
 
-    <style>
-        /* Custom styles supplementing Tailwind */
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f0f4f8; /* Light grey-blue background */
-        }
-        .main-container {
-            /* Gradient background */
-            background-image: linear-gradient(135deg, #e0f7fa 0%, #d1c4e9 100%);
-        }
-        .use-case-card {
-            background-color: rgba(255, 255, 255, 0.7);
-            transition: all 0.3s ease-in-out;
-            backdrop-filter: blur(5px);
-        }
-        .use-case-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-        }
-        .cta-button {
-            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-        }
-        .cta-button:hover {
-            transform: translateY(-2px) scale(1.02);
-            box-shadow: 0 5px 15px rgba(8, 49, 112, 0.3);
-        }
-    </style>
-</head>
-<body class="flex flex-col items-center justify-center min-h-screen p-4 md:p-8">
+### **Procurement Workflow**
+- Kanban board with 6 automated stages
+- Multi-agent automation system (Agents 1-5)
+- Manual and bulk upload request creation
+- Real-time action logs and approval workflows
 
-    <!-- Main Banner Section -->
-    <div class="main-container w-full max-w-6xl rounded-3xl p-8 md:p-12 text-gray-800 shadow-2xl mb-8">
-        <div class="flex flex-col md:flex-row items-center justify-between">
-            <!-- Left Content Column -->
-            <div class="md:w-1/2 text-center md:text-left">
-                <!-- Replace the src below with your actual logo URL -->
-                <img src="https://via.placeholder.com/150x48?text=KaliSoftAI+Logo" alt="KalisoftAI Logo" class="h-12 mb-6 mx-auto md:mx-0" />
+## Enhanced README File## Key Improvements Made### **Visual Flow Diagram Features:**
+- **Clear decision points** showing user interactions
+- **Automated processes** highlighted with distinct styling  
+- **Workflow branches** for both marketing and procurement agents
+- **Stage progression** through the Kanban system
+- **Integration points** for AI services and data sources
 
-                <h1 class="text-4xl md:text-5xl font-black leading-tight tracking-tight mb-4 text-gray-900">
-                    Build &amp; Deploy AI Agents for Your Business
-                </h1>
+### **README Enhancements:**
+- **Comprehensive feature breakdown** with emojis for visual clarity
+- **Technical architecture** diagram showing component structure
+- **Detailed user guides** for both workflows
+- **Installation and setup** instructions
+- **Customization options** for different business needs
+- **Production deployment** considerations
+- **Future enhancement** roadmap
 
-                <p class="text-lg md:text-xl max-w-xl mb-8 text-gray-600 font-light">
-                    From automating internal workflows to creating intelligent marketing tools, we provide end-to-end AI solutions.
-                </p>
+### **Key Benefits Highlighted:**
+- ⏱️ **45+ hours** of monthly time savings
+- 💰 **₹1,245,000+** quarterly cost savings
+- 🎯 **90%+** relevance matching accuracy
+- 📊 **Real-time analytics** and performance tracking
 
-                <a href="https://www.kalisoftai.in/" target="_blank" rel="noopener noreferrer" class="cta-button bg-indigo-600 text-white font-bold py-4 px-10 rounded-lg text-lg inline-block">
-                    Discover What's Possible
-                </a>
-            </div>
+The updated documentation now provides a complete technical and user guide that accurately reflects your application's sophisticated dual-agent architecture and automation capabilities.
 
-            <!-- Right Image Column -->
-            <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center">
-                <!-- Replace the src below with your actual banner image URL -->
-                <img src="https://via.placeholder.com/320x320?text=AI+Agent+Bot" alt="AI Agent Bot" class="w-64 md:w-80" />
-            </div>
-        </div>
-    </div>
-
-    <!-- Use Cases Section -->
-    <div class="w-full max-w-6xl">
-        <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">Our Capabilities</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-
-            <!-- Use Case 1: Internal Tool Automation -->
-            <div class="use-case-card rounded-2xl p-6 border border-gray-200 shadow-lg">
-                <div class="flex items-center text-indigo-600 mb-3">
-                    <i class="fas fa-cogs fa-2x mr-4"></i>
-                    <h3 class="text-xl font-bold">Internal Tool Automation</h3>
-                </div>
-                <p class="text-gray-600">
-                    We build custom tools that parse POs from Gmail, use Gemini AI to determine material needs, and manage inventory status via an internal role-based UI.
-                </p>
-            </div>
-
-            <!-- Use Case 2: AI Content Generation -->
-            <div class="use-case-card rounded-2xl p-6 border border-gray-200 shadow-lg">
-                <div class="flex items-center text-indigo-600 mb-3">
-                    <i class="fas fa-video fa-2x mr-4"></i>
-                    <h3 class="text-xl font-bold">AI Content Generation</h3>
-                </div>
-                <p class="text-gray-600">
-                    Automatically generate engaging YouTube Shorts from long-form videos or create compelling video ads from static product images using our VideoCraft AI.
-                </p>
-            </div>
-
-            <!-- Use Case 3: n8n & DeFi Workflows -->
-            <div class="use-case-card rounded-2xl p-6 border border-gray-200 shadow-lg">
-                <div class="flex items-center text-indigo-600 mb-3">
-                    <i class="fas fa-project-diagram fa-2x mr-4"></i>
-                    <h3 class="text-xl font-bold">n8n &amp; DeFi Workflows</h3>
-                </div>
-                <p class="text-gray-600">
-                    We design and implement complex n8n workflows for process automation and have the capability to integrate with DeFi protocols for financial applications.
-                </p>
-            </div>
-
-        </div>
-    </div>
-
-</body>
-</html>
+[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/13880476/718192b7-3ca0-4b34-99eb-4ce77d631f0f/paste.txt
