@@ -6,7 +6,8 @@
 - Manual and bulk upload request creation
 - Real-time action logs and approval workflows
   
-[![ProcureAI](https://github.com/Vikas1667/ML_Projects/blob/master/ai_agents.png)](https://youtu.be/E-GD4qSi43g)
+[![Watch ProcureAI video](https://github.com/Vikas1667/ML_Projects/blob/master/ai_agents.png)](https://youtu.be/E-GD4qSi43g)
+<video src="https://youtu.be/E-GD4qSi43g" width="320" height="240" controls></video>
 
 ## MarketingAI
 
