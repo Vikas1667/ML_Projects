@@ -1,44 +1,37 @@
-# AI agents Store 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/5eec3fd8-7657-442e-9dcb-f9501bb85835" />
+Here is a rewritten version of your content that includes embedded video thumbnails with visible play buttons, making it more engaging and user-friendly for viewers to click and watch the demos directly:
 
-## ProcureAI 
-- Kanban board with 6 automated stages
-- Multi-agent automation system (Agents 1-5)
-- Manual and bulk upload request creation
-- Real-time action logs and approval workflows
+# AI Agents Store
 
-## Watch the video
+## ProcureAI
 
-[![Watch ProcureAI video](https://github.com/Vikas1667/ML_Projects/blob/master/ai_agents.png)](https://youtu.be/E-GD4qSi43g)
+- Kanban board with 6 automated stages  
+- Multi-agent automation system (Agents 1-5)  
+- Manual and bulk upload request creation  
+- Real-time action logs and approval workflows  
 
-## MarketingAI
+**Watch the Demo Video:**  
+[![▶️ ProcureAI Demo Video](https://img.youtube.com/vi/E-GD4qSi43g/maxresdefaultAI
 
-### **Marketing Outreach Workflow** 
-- Dashboard with company search and filtering
-- Company selection and contact extraction
-- AI-powered email generation and management
-- Company profile settings for personalization
+### Marketing Outreach Workflow  
+- Dashboard with company search and filtering  
+- Company selection and contact extraction  
+- AI-powered email generation and management  
+- Company profile settings for personalization  
 
+**Watch the Walkthrough:**  
+[![▶️ MarketingAI Workflow Video](https://img.youtube.com/vi/MwRo6yTgVJs/maxresdefault Shorts Creation
 
-## Watch the video 
+**See How It Works (YouTube Shorts):**  
+[![▶️ YouTube Shorts Demo](https://img.youtube.com/vi/Fpa-GR39Lzw/maxresdefault Videos with Images Pipeline v2
 
-[![MarketingAI](https://github.com/Vikas1667/ML_Projects/blob/master/ai_agents.png)](https://youtu.be/MwRo6yTgVJs)
+### Main Application Flow  
 
-## Video Shorts creation 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d5204ca6-923f-4869-bf6b-4adb0c268d69" />
+- **App Launch** → **Agent Selection Screen** → **Choose Agent Type**  
+- ⏱️ 45+ hours of monthly time savings  
+- 💰 ₹1,245,000+ quarterly cost savings  
+- 🎯 90%+ relevance matching accuracy  
+- 📊 Real-time analytics and performance tracking  
 
-[![Youtube Shorts](https://github.com/Vikas1667/ML_Projects/blob/master/clipcraftai.png)](https://www.youtube.com/watch?v=Fpa-GR39Lzw)
+> **Click the play button overlays on each thumbnail to watch the corresponding video demo instantly. This visual approach helps you quickly identify and interact with the videos to better understand each product feature.**
 
-
-### Videos with images creation pipeline v2
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/7f5a93eb-0c87-420a-929b-843f1f3e09f9" />
-
-### **Main Application Flow**
-- **App Launch** → **Agent Selection Screen** → **Choose Agent Type**
-
-- ⏱️ **45+ hours** of monthly time savings
-- 💰 **₹1,245,000+** quarterly cost savings
-- 🎯 **90%+** relevance matching accuracy
-- 📊 **Real-time analytics** and performance tracking
-
-
+This format uses embedded YouTube video thumbnails with the classic play button overlay, which is a widely recognized and inviting UI pattern for users. It helps to visually signal that the item is a video and encourages clicks. You can replace the thumbnail URLs if you prefer customized images, but YouTube’s default thumbnails work well to enhance engagement.
