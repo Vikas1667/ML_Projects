@@ -1,5 +1,5 @@
 # AI agents Store 
-[![ProcureAI]([ai_agents](https://github.com/Vikas1667/ML_Projects/blob/master/ai_agents.png))](https://youtu.be/E-GD4qSi43g)
+[![ProcureAI]([https://github.com/Vikas1667/ML_Projects/blob/master/ai_agents.png)](https://youtu.be/E-GD4qSi43g)
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/5eec3fd8-7657-442e-9dcb-f9501bb85835" />
 
