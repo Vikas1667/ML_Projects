@@ -1,6 +1,7 @@
 # AI agents Store 
 
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/373160eb-9987-4df0-8c29-3c0e441bd6da" /># Visual Flow Diagram and Updated README for AI Agent Command CenterI've created a comprehensive visual flow diagram and completely updated README file for your AI Agent Command Center application.## Updated Application FlowThe visual diagram above illustrates the complete user journey through your AI Agent Command Center, showing:
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/5eec3fd8-7657-442e-9dcb-f9501bb85835" />
+# Visual Flow Diagram and Updated README for AI Agent Command CenterI've created a comprehensive visual flow diagram and completely updated README file for your AI Agent Command Center application.## Updated Application FlowThe visual diagram above illustrates the complete user journey through your AI Agent Command Center, showing:
 
 
 ### **Main Application Flow**
