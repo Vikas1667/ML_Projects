@@ -1,8 +1,9 @@
 # AI agents Store 
-[![ProcureAI](https://github.com/Vikas1667/ML_Projects/blob/master/ai_agents.png)](https://youtu.be/E-GD4qSi43g)
-
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/5eec3fd8-7657-442e-9dcb-f9501bb85835" />
-
+## ProcureAI 
+[![ProcureAI](https://github.com/Vikas1667/ML_Projects/blob/master/ai_agents.png)](https://youtu.be/E-GD4qSi43g)
+## MarketingAI
+[![MarketingAI](https://github.com/Vikas1667/ML_Projects/blob/master/ai_agents.png)](https://youtu.be/MwRo6yTgVJs)
 
 ## Video Shorts creation 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d5204ca6-923f-4869-bf6b-4adb0c268d69" />
