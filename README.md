@@ -1,13 +1,15 @@
 # AI agents Store 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/5eec3fd8-7657-442e-9dcb-f9501bb85835" />
+
 ## ProcureAI 
 - Kanban board with 6 automated stages
 - Multi-agent automation system (Agents 1-5)
 - Manual and bulk upload request creation
 - Real-time action logs and approval workflows
-  
+
+## Watch the video
+
 [![Watch ProcureAI video](https://github.com/Vikas1667/ML_Projects/blob/master/ai_agents.png)](https://youtu.be/E-GD4qSi43g)
-<video src="https://youtu.be/E-GD4qSi43g" width="320" height="240" controls></video>
 
 ## MarketingAI
 
@@ -16,6 +18,9 @@
 - Company selection and contact extraction
 - AI-powered email generation and management
 - Company profile settings for personalization
+
+
+## Watch the video 
 
 [![MarketingAI](https://github.com/Vikas1667/ML_Projects/blob/master/ai_agents.png)](https://youtu.be/MwRo6yTgVJs)
 
