@@ -1,52 +1,45 @@
-# AI Agents Store
+# AI agents Store 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/5eec3fd8-7657-442e-9dcb-f9501bb85835" />
 
-## ProcureAI
+## ProcureAI 
+- Kanban board with 6 automated stages
+- Multi-agent automation system (Agents 1-5)
+- Manual and bulk upload request creation
+- Real-time action logs and approval workflows
 
-- Kanban board with 6 automated stages  
-- Multi-agent automation system (Agents 1-5)  
-- Manual and bulk upload request creation  
-- Real-time action logs and approval workflows  
+## Watch the video
 
-**Watch the Demo Video:**  
-[![ProcureAI Demo](https://img.youtube.com/vi/E-GD4qSi43g/hqdefault.jpg)](https://youtu.be/E-GD4qSi43g)  
-*Click the image above to watch the ProcureAI demo video.*
-
----
+[![Watch ProcureAI video](https://github.com/Vikas1667/ML_Projects/blob/master/ai_agents.png)](https://youtu.be/E-GD4qSi43g)
 
 ## MarketingAI
 
-### Marketing Outreach Workflow
+### **Marketing Outreach Workflow** 
+- Dashboard with company search and filtering
+- Company selection and contact extraction
+- AI-powered email generation and management
+- Company profile settings for personalization
 
-- Dashboard with company search and filtering  
-- Company selection and contact extraction  
-- AI-powered email generation and management  
-- Company profile settings for personalization  
 
-**Watch the Walkthrough:**  
-[![MarketingAI Demo](https://img.youtube.com/vi/MwRo6yTgVJs/hqdefault.jpg)](https://youtu.be/MwRo6yTgVJs)  
-*Click the image above to watch the MarketingAI workflow video.*
+## Watch the video 
 
----
+[![MarketingAI](https://github.com/Vikas1667/ML_Projects/blob/master/ai_agents.png)](https://youtu.be/MwRo6yTgVJs)
 
-## Video Shorts Creation
+## Video Shorts creation 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d5204ca6-923f-4869-bf6b-4adb0c268d69" />
 
-**See How It Works (YouTube Shorts):**  
-[![Video Shorts Demo](https://img.youtube.com/vi/Fpa-GR39Lzw/hqdefault.jpg)](https://www.youtube.com/watch?v=Fpa-GR39Lzw)  
-*Click the image above to watch the YouTube Shorts demo.*
+[![Youtube Shorts](https://github.com/Vikas1667/ML_Projects/blob/master/clipcraftai.png)](https://www.youtube.com/watch?v=Fpa-GR39Lzw)
 
----
 
-## Videos with Images Creation Pipeline v2
+### Videos with images creation pipeline v2
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/7f5a93eb-0c87-420a-929b-843f1f3e09f9" />
 
-### Main Application Flow
+### **Main Application Flow**
+- **App Launch** → **Agent Selection Screen** → **Choose Agent Type**
 
-- **App Launch** → **Agent Selection Screen** → **Choose Agent Type**  
-- ⏱️ 45+ hours of monthly time savings  
-- 💰 ₹1,245,000+ quarterly cost savings  
-- 🎯 90%+ relevance matching accuracy  
-- 📊 Real-time analytics and performance tracking  
+- ⏱️ **45+ hours** of monthly time savings
+- 💰 **₹1,245,000+** quarterly cost savings
+- 🎯 **90%+** relevance matching accuracy
+- 📊 **Real-time analytics** and performance tracking
 
----
 
-> **Click the play button overlays on the thumbnails to watch the respective demo videos instantly. This improves engagement and helps you quickly understand each feature.**
-
+ rewrite to show video with more user friendly manner which can view to know user its an video
