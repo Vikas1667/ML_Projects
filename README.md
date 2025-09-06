@@ -6,12 +6,12 @@
 - **Multi-agent automation** system (Agents 1–5)  
 - Manual and bulk upload request creation  
 - **Real-time action logs** and approval workflows  
-<img src="kalisoft_agent.svg" alt="Description of SVG" width="480" />
+<img src="kalisoft_agent.svg" alt="Description of SVG" width="600" />
 
 **Watch the ProcureAI video:**  
 <p align="center">
   <a href="https://youtu.be/E-GD4qSi43g" target="_blank">
-    <img src="https://github.com/Vikas1667/ML_Projects/blob/master/ai_agents.png" alt="ProcureAI Video" width="480" />
+    <img src="https://github.com/Vikas1667/ML_Projects/blob/master/ai_agents.png" alt="ProcureAI Video" width="480" height="300" />
   </a>
 </p>
 
